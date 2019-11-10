@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome_to"
+        android:layout_width="414dp"
+        android:layout_height="68dp"
+        android:background="#D9F7F2"
+        android:text="Welcome to"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/heads_up_driving"
+        android:layout_width="415dp"
+        android:layout_height="79dp"
+        android:background="#D9F7F2"
+        android:text="Heads Up Driving!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_to" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/ekg"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="413dp"
+        android:layout_height="48dp"
+        android:background="#7FF5E1"
+        android:text="About Heads Up Driving:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+        android:background="@android:color/secondary_text_dark_nodisable"
+        android:text="2. Start Driving"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+        android:background="@android:color/secondary_text_dark_nodisable"
+        android:text="1. Connect to Steering Wheel"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="417dp"
+        android:layout_height="230dp"
+        android:background="#7FF5E1"
+        android:text="Heads Up Driving utilizes heart rate sensors in a steering wheel cover to monitor heart rate variability.  This heart measurement allows us to determine if you are falling asleep at the wheel.  If you start to doze off, this app will sound an alarm to wake you up.  That's your cue to pull over, take a quick nap, or grab a coffee."
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="415dp"
+        android:layout_height="225dp"
+        android:background="#FFB5F0E9"
+        android:text="filler"
+        android:textColor="#B5F0E9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="145dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
