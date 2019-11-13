@@ -22,7 +22,7 @@ def algorithmAS(argv):
         temp = temp + diff2
         
     print(temp)
-    average_diff = temp/len(RRintervals)
+    average_diff = temp/len(RRintervals)-1)
     RMSSD = np.sqrt(average_diff)
     
     logRMSSD = np.log(RMSSD)
@@ -57,7 +57,7 @@ def algorithmMM(argv):
         temp = temp + diff2
         
 #    print(temp)
-    average_diff = temp/len(RRintervals)
+    average_diff = temp/(len(RRintervals)-1)
     RMSSD = np.sqrt(average_diff)
     
     logRMSSD = np.log(RMSSD)
